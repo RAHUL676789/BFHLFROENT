@@ -16,7 +16,7 @@ const BFHL = () => {
       const parsedInput = JSON.parse(jsonInput); // Throws error if invalid
       console.log('Parsed JSON:', parsedInput);
 
-      const response = await fetch('https://bfhlbackend-66j9.onrender.com/', {
+      const response = await fetch('https://bfhlbackend-66j9.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
