@@ -17,7 +17,7 @@ const BFHL = () => {
       console.log('Parsed JSON:', parsedInput);
 
       const response = await fetch('https://bfhlbackend-66j9.onrender.com/bfhl', {
-        method: 'POST',
+        method: 'post',
         headers: {
           'Content-Type': 'application/json',
         },
