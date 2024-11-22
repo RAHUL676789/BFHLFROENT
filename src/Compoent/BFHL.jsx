@@ -14,7 +14,7 @@ const BFHL = () => {
 
       // Validate JSON input
       const parsedInput = JSON.parse(jsonInput); // Throws error if invalid
-      console.log('Parsed JSON:', parsedInput);
+      console.log('Parsed JSON:', parsedInput)
 
       const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/bfhl`, {
         method: 'POST',
